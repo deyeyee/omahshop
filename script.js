@@ -11,7 +11,7 @@ const PRODUCTS = [
   {
     id: 1, name: "Hijab Voal Daily", category: "Hijab", price: 35000, tag: "Favorit",
     description: "Hijab ringan dengan tampilan rapi untuk aktivitas harian.",
-    image: "Gemini_Generated_Image_9ao1gk9ao1gk9ao1.jpg"
+    image: "Gemini_Generated_Image_9ao1gk9ao1gk9ao1"
   },
   {
     id: 2, name: "Hijab Pashmina", category: "Hijab", price: 45000, tag: "Mudah dipadu",
