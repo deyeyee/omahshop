@@ -1,3 +1,4 @@
+
 /*
   PENGATURAN OMAHSHOP
   1. Ganti WHATSAPP_NUMBER dengan nomor WhatsApp Ibu.
@@ -11,42 +12,52 @@ const PRODUCTS = [
   {
     id: 1, name: "Hijab Voal Daily", category: "Hijab", price: 35000, tag: "Favorit",
     description: "Hijab ringan dengan tampilan rapi untuk aktivitas harian.",
-    image: "Gemini_Generated_Image_9ao1gk9ao1gk9ao1"
+    image: "image/Gemini_Generated_Image_gqhdmugqhdmugqhd.jpeg"
   },
   {
     id: 2, name: "Hijab Pashmina", category: "Hijab", price: 45000, tag: "Mudah dipadu",
     description: "Pashmina simpel untuk gaya santun sehari-hari.",
-    image: "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=85"
+    image: "image/Gemini_Generated_Image_q84076q84076q840.jpeg"
   },
   {
     id: 3, name: "Gamis Daily", category: "Gamis", price: 135000, tag: "Pilihan harian",
     description: "Potongan longgar yang nyaman untuk beraktivitas.",
-    image: "https://images.unsplash.com/photo-1585036156171-384164a8c675?auto=format&fit=crop&w=800&q=85"
+    image: "image/Gemini_Generated_Image_9ao1gk9ao1gk9ao1.jpeg"
   },
   {
     id: 4, name: "Tunik Casual", category: "Atasan", price: 89000, tag: "Versatile",
     description: "Atasan santun yang mudah dipadukan dengan rok atau celana.",
-    image: "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?auto=format&fit=crop&w=800&q=85"
+    image: "image/Gemini_Generated_Image_qbjb0pqbjb0pqbjb.jpeg"
   },
   {
     id: 5, name: "Inner Hijab", category: "Aksesori", price: 18000, tag: "Basic",
     description: "Pelengkap hijab untuk membantu pemakaian terasa nyaman.",
-    image: "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?auto=format&fit=crop&w=800&q=85"
+    image: "image/Gemini_Generated_Image_opde0iopde0iopde (1).jpeg"
   },
   {
     id: 6, name: "Khimar Basic", category: "Hijab", price: 55000, tag: "Simple",
     description: "Khimar dengan gaya sederhana untuk tampilan anggun.",
-    image: "https://images.unsplash.com/photo-1606293926075-69a00dbdde81?auto=format&fit=crop&w=800&q=85"
+    image: "image/Gemini_Generated_Image_vs0cfqvs0cfqvs0c (1).jpeg"
   },
   {
     id: 7, name: "Setelan Muslimah", category: "Atasan", price: 149000, tag: "Matching set",
     description: "Setelan praktis untuk tampilan serasi tanpa repot.",
-    image: "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?auto=format&fit=crop&w=800&q=85"
+    image: "image/Gemini_Generated_Image_y82457y82457y824 (1).jpeg"
   },
   {
     id: 8, name: "Bros Hijab", category: "Aksesori", price: 15000, tag: "Little detail",
     description: "Aksesori kecil untuk melengkapi tampilan hijab.",
-    image: "https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=800&q=85"
+    image: "image/Gemini_Generated_Image_o092ooo092ooo092 (1).jpeg"
+  },
+  {
+    id: 9, name: "Gaun Hitam", category: "Gamis", price: 80000, tag: "Koleksi baru",
+    description: "Gaun hitam dengan tampilan simpel dan elegan untuk berbagai kesempatan.",
+    image: "image/belummasuksama1.jpeg"
+  },
+  {
+    id: 10, name: "Gaun Hitam Bintik", category: "Gamis", price: 73000, tag: "Koleksi baru",
+    description: "Gaun hitam bermotif bintik dengan tampilan manis dan anggun.",
+    image: "image/belummasuksama2.jpeg"
   }
 ];
 
