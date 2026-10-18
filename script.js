@@ -29,7 +29,7 @@ const PRODUCTS = [
     image: "image/Gemini_Generated_Image_qbjb0pqbjb0pqbjb.jpeg"
   },
   {
-    id: 5, name: "Inner Hijab", category: "Aksesori", price: 18000, tag: "Basic",
+    id: 5, name: "Inner Hijab", category: "Gamis", price: 18000, tag: "Basic",
     description: "Pelengkap hijab untuk membantu pemakaian terasa nyaman.",
     image: "image/Gemini_Generated_Image_opde0iopde0iopde (1).jpeg"
   },
@@ -44,7 +44,7 @@ const PRODUCTS = [
     image: "image/Gemini_Generated_Image_y82457y82457y824 (1).jpeg"
   },
   {
-    id: 8, name: "Bros Hijab", category: "Aksesori", price: 15000, tag: "Little detail",
+    id: 8, name: "Bros Hijab", category: "Atasan", price: 15000, tag: "Little detail",
     description: "Aksesori kecil untuk melengkapi tampilan hijab.",
     image: "image/Gemini_Generated_Image_o092ooo092ooo092 (1).jpeg"
   },
