@@ -1,77 +1,84 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Omahshop — pilihan fashion muslimah yang anggun, nyaman, dan bersahaja." />
+  <meta name="description" content="Omahshop — pilihan pakaian dan aksesori untuk Ibu dan Bapak, dengan pelayanan ramah dan pemesanan mudah." />
   <meta name="theme-color" content="#f8f5ee" />
-  <title>Omahshop — Temani Hari dengan Anggun</title>
+  <title>Omahshop — Pilihan Pakaian untuk Sehari-hari</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="announcement">Assalamu’alaikum, selamat datang di Omahshop ✦</div>
+  <div class="announcement">Assalamu’alaikum, selamat datang di Omahshop. Semoga berkenan dengan pilihan kami ✦</div>
 
   <header class="site-header">
     <a class="brand" href="#home" aria-label="Omahshop beranda"><span class="brand-mark">❋</span> omah<span class="brand-accent">shop</span></a>
     <nav class="desktop-nav" aria-label="Navigasi utama">
       <a href="#home">Beranda</a>
-      <a href="#catalog">Koleksi</a>
+      <a href="#catalog">Pilihan Produk</a>
       <a href="#about">Tentang Kami</a>
     </nav>
-    <a class="header-cta" href="#catalog">Lihat koleksi <span aria-hidden="true">↗</span></a>
+    <a class="header-cta" href="#catalog">Lihat produk <span aria-hidden="true">↗</span></a>
   </header>
 
   <main>
     <section class="hero" id="home">
       <div class="hero-copy">
-        <p class="eyebrow"><span>✧</span> MODEST WEAR • EVERYDAY COMFORT</p>
-        <h1>Anggun dalam<br><em>setiap langkah.</em></h1>
-        <p class="hero-description">Pilihan busana muslimah dan aksesori yang nyaman, manis, dan mudah dipadukan untuk menemani keseharianmu.</p>
-        <a class="button button-dark" href="#catalog">Jelajahi koleksi <span aria-hidden="true">→</span></a>
-        <div class="hero-note"><span class="note-star">☾</span><span>Nyaman, santun, dan bersahaja<br><small>Temukan pilihan yang terasa seperti dirimu.</small></span></div>
+        <p class="eyebrow"><span>✧</span> PILIHAN PAKAIAN • NYAMAN UNTUK SEHARI-HARI</p>
+        <h1>Nyaman dipakai,<br><em>pas di hati.</em></h1>
+        <p class="hero-description">Sedang mencari pakaian untuk sehari-hari? Yuk, lihat pilihan celana, setelan, atasan, dan aksesori dari Omahshop. Siapa tahu ada yang cocok untuk Ibu atau Bapak.</p>
+        <a class="button button-dark" href="#catalog">Yuk, lihat produknya <span aria-hidden="true">→</span></a>
+        <div class="hero-note"><span class="note-star">☾</span><span>Pilihan untuk menemani keseharian<br><small>Kalau ada yang cocok, kami siap membantu.</small></span></div>
       </div>
 
       <div class="hero-visual">
-        <div class="hero-slideshow" id="heroSlideshow" aria-label="Foto pilihan produk Omahshop">
-          <img class="hero-slide active" src="image/Gemini_Generated_Image_gqhdmugqhdmugqhd.jpeg" alt="Koleksi hijab Omahshop" fetchpriority="high" />
-          <img class="hero-slide" src="image/Gemini_Generated_Image_9ao1gk9ao1gk9ao1.jpeg" alt="Koleksi gamis Omahshop" />
-          <img class="hero-slide" src="image/Gemini_Generated_Image_qbjb0pqbjb0pqbjb.jpeg" alt="Koleksi tunik Omahshop" />
-          <img class="hero-slide" src="image/belummasuksama1.jpeg" alt="Koleksi gaun Omahshop" />
+        <div class="hero-slideshow" id="heroSlideshow" aria-label="Foto pilihan produk Omahshop" tabindex="0">
+          <img class="hero-slide active" src="image/Gemini_Generated_Image_gqhdmugqhdmugqhd.jpeg" alt="Atasan Model 01" fetchpriority="high" />
+          <img class="hero-slide" src="image/Gemini_Generated_Image_opde0iopde0iopde (1).jpeg" alt="Setelan Model 04" />
+          <img class="hero-slide" src="image/Gemini_Generated_Image_79cvzo79cvzo79cv (1).jpeg" alt="Setelan Model 10" />
+          <img class="hero-slide" src="image/Gemini_Generated_Image_dga075dga075dga0 (1).jpeg" alt="Celana Model 04" />
+
+          <button class="hero-arrow hero-arrow-prev" id="heroPrev" type="button" aria-label="Foto sebelumnya">&#10094;</button>
+          <button class="hero-arrow hero-arrow-next" id="heroNext" type="button" aria-label="Foto berikutnya">&#10095;</button>
+
+          <div class="hero-dots" id="heroDots" aria-label="Pilih foto"></div>
         </div>
-        <div class="hero-sticker"><span>MODEST</span><strong>with<br>grace</strong><span>EVERYDAY</span></div>
-        <div class="hero-caption">OMAHSHOP &nbsp; / &nbsp; PILIHAN MUSLIMAH</div>
+
+        <div class="hero-sticker"><span>PILIHAN</span><strong>untuk<br>Anda</strong><span>SEHARI-HARI</span></div>
+        <div class="hero-caption">OMAHSHOP &nbsp; / &nbsp; PILIHAN UNTUK KESEHARIAN</div>
       </div>
     </section>
 
     <section class="values" aria-label="Keunggulan Omahshop">
-      <div><span>✧</span><p><strong>Gaya santun</strong><small>Untuk berbagai suasana</small></p></div>
-      <div><span>♡</span><p><strong>Nyaman dipakai</strong><small>Temani aktivitas harian</small></p></div>
-      <div><span>☾</span><p><strong>Pemesanan mudah</strong><small>Langsung melalui WhatsApp</small></p></div>
+      <div><span>✧</span><p><strong>Banyak pilihan</strong><small>Sesuaikan dengan kebutuhan</small></p></div>
+      <div><span>♡</span><p><strong>Nyaman untuk harian</strong><small>Pilihan untuk berbagai kegiatan</small></p></div>
+      <div><span>☾</span><p><strong>Mudah pesan</strong><small>Tinggal chat lewat WhatsApp</small></p></div>
     </section>
 
     <section class="catalog-section" id="catalog">
       <div class="section-heading">
         <div>
-          <p class="eyebrow">KOLEKSI OMAHSHOP</p>
-          <h2>Temukan yang cocok untukmu<span>.</span></h2>
-          <p class="section-subtitle">Pilihan busana muslimah dan pelengkap gaya dengan sentuhan sederhana.</p>
+          <p class="eyebrow">PILIHAN OMAHSHOP</p>
+          <h2>Barangkali ada yang cocok<span>.</span></h2>
+          <p class="section-subtitle">Silakan lihat-lihat dulu. Semoga Ibu dan Bapak menemukan pilihan yang disukai.</p>
         </div>
-        <p class="product-count" id="productCount">8 produk</p>
+        <p class="product-count" id="productCount">10 produk</p>
       </div>
 
       <div class="catalog-controls">
         <label class="search-box">
           <span aria-hidden="true">⌕</span>
-          <input id="searchInput" type="search" placeholder="Cari hijab, tunik, gamis..." aria-label="Cari produk" />
+          <input id="searchInput" type="search" placeholder="Cari celana, setelan, atasan..." aria-label="Cari produk" />
           <kbd>CARI</kbd>
         </label>
-        <div class="category-filters" id="categoryFilters" aria-label="Filter kategori">
+        <div class="category-filters" id="categoryFilters" aria-label="Pilih kategori produk">
           <button class="filter-button active" data-category="Semua">Semua</button>
-          <button class="filter-button" data-category="Hijab">Hijab</button>
-          <button class="filter-button" data-category="Gamis">Gamis</button>
+          <button class="filter-button" data-category="Celana">Celana</button>
+          <button class="filter-button" data-category="Setelan">Setelan</button>
           <button class="filter-button" data-category="Atasan">Atasan</button>
           <button class="filter-button" data-category="Aksesori">Aksesori</button>
         </div>
@@ -80,42 +87,42 @@
       <div class="product-grid" id="productGrid" aria-live="polite"></div>
       <div class="empty-state" id="emptyState" hidden>
         <span>⌕</span>
-        <h3>Produk belum ditemukan</h3>
-        <p>Coba kata kunci lain atau pilih kategori berbeda.</p>
+        <h3>Produknya belum ditemukan</h3>
+        <p>Coba kata pencarian lain atau pilih kategori yang berbeda, ya.</p>
       </div>
     </section>
 
     <section class="quote-band">
       <span class="quote-ornament">❋</span>
-      <p>“Berpakaian santun, tetap nyaman menjadi diri sendiri.”</p>
-      <span class="quote-small">A LITTLE NOTE FROM OMAHSHOP</span>
+      <p>“Semoga menemukan pilihan yang cocok dan nyaman dipakai.”</p>
+      <span class="quote-small">TERIMA KASIH SUDAH BERKUNJUNG</span>
     </section>
 
     <section class="brand-story" id="about">
       <div class="story-mark">☾</div>
       <div>
-        <p class="eyebrow">CERITA KECIL KAMI</p>
-        <h2>Busana santun,<br><em>untuk hari-hari istimewa.</em></h2>
+        <p class="eyebrow">KENALAN DENGAN KAMI</p>
+        <h2>Omahshop,<br><em>siap menemani pilihan Anda.</em></h2>
       </div>
-      <p class="story-text">Omahshop menghadirkan pilihan fashion muslimah yang sederhana dan mudah dipadukan. Pilih produk favoritmu, lalu hubungi kami untuk memastikan stok, ukuran, warna, dan detail pemesanan.</p>
+      <p class="story-text">Omahshop menyediakan pilihan pakaian dan aksesori untuk menemani keseharian. Kalau Ibu atau Bapak tertarik dengan salah satu produk, silakan hubungi kami. Kami akan membantu mengecek stok, ukuran, warna, dan informasi lainnya.</p>
     </section>
 
     <section class="bottom-cta">
-      <p class="eyebrow">SUDAH MENEMUKAN FAVORITMU?</p>
-      <h2>Yuk, tanya langsung ke kami.</h2>
-      <p>InsyaAllah kami bantu cek stok dan detail produk pilihanmu.</p>
-      <a class="button button-light" id="bottomWhatsapp" href="#" target="_blank" rel="noopener">Hubungi Omahshop <span aria-hidden="true">↗</span></a>
+      <p class="eyebrow">ADA PRODUK YANG DISUKAI?</p>
+      <h2>Yuk, ngobrol dengan kami.</h2>
+      <p>Mau tanya harga, ukuran, warna, atau stok? Langsung kirim pesan lewat WhatsApp, ya.</p>
+      <a class="button button-light" id="bottomWhatsapp" href="#" target="_blank" rel="noopener">Chat kami di WhatsApp <span aria-hidden="true">↗</span></a>
     </section>
   </main>
 
   <footer class="site-footer">
     <a class="brand" href="#home"><span class="brand-mark">❋</span> omah<span class="brand-accent">shop</span></a>
-    <p>Busana muslimah untuk menemani keseharian.</p>
+    <p>Terima kasih sudah mampir ke Omahshop.</p>
     <span>© <span id="year"></span> Omahshop. Dengan sepenuh hati.</span>
   </footer>
 
   <a class="floating-whatsapp" id="generalWhatsapp" href="#" target="_blank" rel="noopener" aria-label="Chat Omahshop di WhatsApp">
-    <span class="wa-icon">☏</span><span>Pesan via WhatsApp</span>
+    <span class="wa-icon">☏</span><span>Tanya lewat WhatsApp</span>
   </a>
 
   <script src="script.js"></script>
