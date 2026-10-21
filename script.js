@@ -1,3 +1,4 @@
+
 /*
   PENGATURAN OMAHSHOP
   1. Ganti WHATSAPP_NUMBER dengan nomor WhatsApp Ibu.
@@ -35,6 +36,7 @@ const PRODUCTS = [
   },
   {
     id: 6, name: "Khimar Basic", category: "Hijab", price: 55000, tag: "Simple",
+    soldOut: true,
     description: "Khimar dengan gaya sederhana untuk tampilan anggun.",
     image: "image/Gemini_Generated_Image_vs0cfqvs0cfqvs0c (1).jpeg"
   },
@@ -50,6 +52,7 @@ const PRODUCTS = [
   },
   {
     id: 9, name: "Gaun Hitam", category: "Gamis", price: 80000, tag: "Koleksi baru",
+    soldOut: true,
     description: "Gaun hitam dengan tampilan simpel dan elegan untuk berbagai kesempatan.",
     image: "image/belummasuksama1.jpeg"
   },
@@ -106,7 +109,7 @@ function renderProducts() {
   });
 
   productGrid.innerHTML = filtered.map(product => `
-    <article class="product-card">
+    <article class="product-card${product.soldOut ? " sold-out" : ""}">
       <div class="product-image-wrap">
         <img
           class="product-image"
@@ -116,6 +119,7 @@ function renderProducts() {
           onerror="this.onerror=null;this.src='https://placehold.co/600x750/f8f5ee/58664f?text=Omahshop';"
         >
         <span class="product-tag">${escapeHTML(product.tag)}</span>
+        ${product.soldOut ? '<span class="sold-out-overlay">SOLD OUT</span>' : ""}
       </div>
 
       <div class="product-info-top">
@@ -128,14 +132,11 @@ function renderProducts() {
 
       <p class="product-description">${escapeHTML(product.description)}</p>
 
-      <a
-        class="buy-button"
-        href="${makeWhatsAppLink(product)}"
-        target="_blank"
-        rel="noopener"
-      >
-        Tanya / pesan <span aria-hidden="true">↗</span>
-      </a>
+      ${
+        product.soldOut
+          ? '<span class="buy-button sold-out-button" aria-disabled="true">Stok Habis <span aria-hidden="true">×</span></span>'
+          : `<a class="buy-button" href="${makeWhatsAppLink(product)}" target="_blank" rel="noopener">Tanya / pesan <span aria-hidden="true">↗</span></a>`
+      }
     </article>
   `).join("");
 
